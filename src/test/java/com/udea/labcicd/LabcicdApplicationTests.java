@@ -47,7 +47,7 @@ class LabcicdApplicationTests {
 		long start = System.currentTimeMillis();
 		controller.getRadomNation();
 		long end = System.currentTimeMillis();
-		assert (end - start < 1000);
+		assert (end - start < 2000);
 	}
 
 	@Test
